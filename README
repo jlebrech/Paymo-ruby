@@ -1,0 +1,9 @@
+This should probably be a GEM, i'll get round to it.
+
+This ruby class reads a configuration for the API key for the paymo api and the service url (incase that changes)
+
+It knows how to read the API and return Ruby arrays containing Tasks and Projects but getting around the need to keep passing the TOKEN to the api manually.
+
+It also gets around some of the limitations of the API notably findByName, and projects and task arrays being contained in an extra layer of arrays.
+
+This file can be run by it's own to test the functionality, it will load the yaml file for an api key, so ensure that you have the necessary key from Paymo.biz
